@@ -1,0 +1,45 @@
+<!DOCTYPE html><!--indica que o documento é html-->
+<html lang="pt-br"><!--dentro da tag tem o paramêtro de idioma-->
+<head><!--configurações do site-->
+    <meta charset="UTF-8"><!--configurações de caracteres, o UTF-8 suporta acentuações-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--o site ocupa 100% da tela dispóivel pelo navegador-->
+    <title>Primeiro código</title><!--Título do site - aparece no topo da guia-->
+    <style>
+        p, ul {
+            font-size: 15px;
+        }
+        p#exemplo {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 0, 106);
+            font-size: 10px;
+            background-color: rgb(22, 29, 29);
+        }
+    </style>
+</head>
+<!--as marcas em azul são as tags-->
+<body><!--Área de conteúdo-->
+    <h1>Olá, Mundo!</h1><!--heading, um cabeçalho, título nível um-->
+    <hr><!--horizontal row, cria uma linha horizontal-->
+    <h2>HTML</h2>
+    <p>HTML é uma abreviação de Hpertext Markup Language, em português significa Linguagem de Marcação de Hipertexto. A base do HTML são as marcações, conhecidas como tags.</p><!--paragráfo-->
+    <p>Explicando de forma simples: o HTML está relacionado ao conteúdo do site.</p>
+    <h2>As Tags</h2>
+    <p>Uma tag é um grupo de palavras que fica entre os colchetes angulares, a maioria possui tag abertura e uma de fechamento(indicadas com a barra), dentre elas é colocado o conteúdo.</p>
+    <p>Podem ser adicionados atributos e valores, isso configura o comportamento. Por Exempo: se tivermos uma tag <code>a</code>  (âncora) precisamos colocar um parâmetro <code>href="destino.html"</code> com um <code>valor</code> dentro das "", que seria o destino da âncora, depois inserimos o conteúdo e colocamos uma tag de fechamento.<br><a href="destino.html">Exemplo de link</a></p>
+    <p>A mesma tag pode ter diversos paâmetro, cada um com seu valor. Porém, algumas, não tem necessidade de conteúdo interno e devido a isso não fechamento, como as tags <code>br</code> e <code>img</code>.</p>
+    <hr>
+    <h2>CSS</h2>
+    <p>O CSS é uma abreviação para Cascading Style Sheets (Folhas de Estilo em Cascata). É utilizado para configurar um resultado visual dos elementos HTML, por exemplo, com as folhas de estilo conseguimos alterar a cor de fundo de um elemento, fonte, colocar borda etc.</p>
+    <p>As configurações das folhas de estilo são feitas utilizando <strong>seletores</strong>.</p>
+    <p id="exemplo">Vamos configurar esse paragráfo, para isso utilizamos o seletor <code>p</code> , depois fazemos uso de chaves para delimitar todas as declaraçoes relativas ao seletor atual e colocar pont e vírgula para indicar que a declaração se encerrou.</p>
+    <p>Todas as propriedades ter ser valor, este por sua vez deve ser separados por dois pontos.</p> 
+    <ul>  
+            <li>fonte em Ariel</li>
+            <li>tamanho da letra</li>
+            <li>cor da letra</li>
+            <li>cor de fundo</li>
+        </ul>
+    <hr>
+    <p><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/03%20-%20Como%20funciona%20HTML%20e%20CSS.pdf">GitHub PDF - Aula 03 </a> - Respostas: c,b, a, a, b, b, a, c, d, b.  | <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/04%20-%20Primeiros%20passos%20HTML.pdf">GitHub PDF - Aula 04</a>- Respostas: d, a, b, d, a, c, a, d, a, c. </p>
+</body>
+</html>
