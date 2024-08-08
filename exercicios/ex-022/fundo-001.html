@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de Fundo</title>
+    <style>
+
+        body {
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        main {
+            background-color: #f3f3f3;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px #000000a1;
+            padding: 20px;
+            margin: auto;
+            margin-top: 50px;
+            min-width: 320px;
+            max-width: 1000px;
+            text-align: center;
+        }
+        div.quadrado {
+            display: inline-block;
+            border: 2px dashed #141414;
+            border-radius: 20px;
+            background-color: lightcoral;
+            box-shadow: 0px 0px 5px #000000a1;
+            width: 300px;
+            height: 300px;
+        }
+        div#q1 {
+            background-color: #946ab4;
+        }
+        div#q2 {
+            background-image: linear-gradient(to bottom, #de3b8f, #791136);
+        }
+        div#q3 {
+           background-image: url(imagens/wallpaper002.jpg);
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        
+        <div class="quadrado" id="q1">
+        </div>
+        <div class="quadrado" id="q2">
+        </div>
+        <div class="quadrado" id="q3">
+        </div>
+        <hr>
+        <h2>Instruções:</h2>
+        <li>Criar três tags div</li>
+        <li>Colocar o mesmo nome nas classes</li>
+        <li>Coloque id diferentes</li>
+           <li>Faça os quadrados ficarem alinhados horizontalmente</li>
+           <li>Coloque cor no primeiro quadrado</li>
+           <li>No segundo, um degradê de cores</li>
+           <li>No terceiro, insira a imagem pattern001.png</li>
+           <li>Coloque uma imagem no body</li>
+        <hr>
+           <p>observe a imagem do terceiro quadrado é pequena e o navegador vai replica-la para prenencher o quadra. Tente adicionar a imagem wallpaper002.jpg, não conseguimos ver toda a foto, mas o fundo foi preenchido.</p>
+    </main>
+</body>
+</html>
